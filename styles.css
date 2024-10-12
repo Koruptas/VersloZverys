@@ -11,10 +11,12 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 header{
     background: rgb(4, 4, 48);
     margin: 5px;
-    padding: 2px;
+    padding: 3px;
+    border: 1px solid white;
     border-radius: 10px;
 }
 
@@ -68,7 +70,15 @@ a:hover{
 }
 
 .welcome{
-    background-color: rgb(4, 4, 48);
+    border: 1px solid white;
+    border-style: solid;
+    border-radius: 10px;
     margin: 5px;
+    display: flex;
+    
+}
+
+.welcome section{  
+    width: 33%;
     text-align: center;
 }
