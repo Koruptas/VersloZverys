@@ -33,14 +33,11 @@ nav{
     align-items: center;
 }
 
-nav img{
-    width: 70px;
-}
-
 ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
+    display: flex;
 }
 
 li{
@@ -58,7 +55,6 @@ a{
     text-decoration: none;
     color: inherit;
     border-radius: 5px;
-    border: 2px solid white;
     background-color: transparent;
     padding: 5px 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -81,4 +77,37 @@ a:hover{
 .welcome section{  
     width: 33%;
     text-align: center;
+}
+
+.logo a{
+    background-image: url("VersoZverys.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    display: inline-block;
+    text-indent: -999999999px;
+}
+
+.contact{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact section{
+    margin: auto;
+    text-align: center;
+}
+
+.pictures{
+    display: flex;
+    margin: auto;
+}
+.pictures img{
+    border-radius: 30px;
+    margin: 10px;
 }
